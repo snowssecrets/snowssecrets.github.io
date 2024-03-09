@@ -1,0 +1,366 @@
+body {
+background-color:#0F2C4C;
+display:grid;
+} 
+
+/*banner*/
+img {
+margin:0px;
+width:1325px;
+height:150px;
+}
+
+/* navigation*/
+.navbar ul{
+list-style-type:none;
+background-color:#713F40;
+padding:0px;
+margin:5px;
+overflow:hidden;	
+text-align:center;
+float:center;
+}
+
+.navbar a{
+text-decoration:none;
+display:block;
+float:left;
+color:white;
+padding:0px;
+}
+
+.navbar a:hover{
+color:black;
+background-color: white;
+}
+
+.navbar h4{
+text-align:center;	
+padding:0px;
+width:264.5px;
+}
+
+/*layout*/
+.column {
+display: flex;
+grid-gap: 10px;
+padding:5px;
+grid-template-columns:550px 1fr;
+grid-template-rows:100px 4000px
+}
+
+
+
+/* data (left)*/
+.main1{	
+background-color:none;
+color:white;
+text-decoration:none;
+display:block;
+}
+
+.main1 font{
+margin:55px;
+padding:20px;	
+}
+
+.main1 p{
+text-align:justify;
+margin:55px;
+padding:20px;	
+}
+
+.main1 h1{
+text-align:center;
+padding:0px;
+}
+
+/*procedure biotek*/
+table td{
+font-size:23;
+color:white;
+}
+
+/*color*/
+.navbar b{
+color:#FCD675;
+}
+
+li{
+color: white;
+font-size: 20;
+}
+
+font {
+color:white;
+font-size: 20	;
+}
+
+.font {
+font-size:20;
+}
+
+.fontwel {
+font-size:25;
+}
+
+.table {
+color:#1F3655;
+}
+
+/*credit*/
+.credit {
+background-color:#713F40;
+color:white;
+text-decoration:none;
+display:block;
+margin:5px;
+padding;0px;
+}
+
+/*spotify*/
+iframe{
+width:400px;
+margin:20px;
+padding:10px;
+height:400px;
+}
+
+/*background*/
+.welcome{
+background-image: url(back.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+height:100%;
+}
+
+/*background*/
+.backspotify{
+background-image: url(spotify3.jpg);
+background-repeat:no-repeat;
+background-position: center;
+background-size: 1350px 100%;
+background-attachment:fixed;
+height:100%;
+}
+
+
+/*background*/
+.backgroundweb{
+background-image: url(FIXX.png);
+background-repeat:no-repeat;
+background-size: 870px 768px ;
+background-attachment:fixed;
+height:100%;
+}
+
+/*gallery*/
+.imagetall img{	
+width:190px;
+height:240px;
+}
+
+.imagemed img{	
+width:190px;
+height:110px;
+}
+
+.imagetall2 img{	
+width:380px;
+height:500px;
+}
+
+.imagemed2 img{	
+width:380px;
+height:250px;
+}
+
+/*image abstrak*/
+.puddingimg img{	
+width:190px;
+height:240px;
+}
+
+.biotekimg img{	
+width:190px;
+height:190px;
+}
+
+/*profile*/
+.profile img{
+width: 200px;
+height: 200px;
+text-align:align;
+margin:55px;
+padding:20px;
+}
+
+/*colapsibles*/
+.collapsible {
+  background-color:#335E89;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.active, .collapsible:hover {
+  background-color:#713F40;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #A5B2C6;
+  color:#1F3655;	
+}
+
+.iframeexcel {
+width:600px;
+height:700px;
+}
+
+/*pdf*/
+.tabelagama{
+width:600px;
+height:700px;
+}	
+
+
+.youtube {
+width:600px;
+height:335px;
+}
+
+
+.diagram {
+width:640px;
+height:335px;
+}
+
+/*lampiran*/
+.lampiran{
+width:140px;
+height:200px;
+}
+.lampiran2{
+width:190px;
+height:120px;
+}
+.lampiran3{
+width:155px;
+height:200px;
+}
+.lampiran4{
+width:140px;
+height:250px;
+}
+.lampiran5{
+width:195px;
+height:250px;
+}
+.lampiran6{
+width:450px;
+height:235px;
+}
+.lampiran7{
+width:195px;
+height:195px;
+}
+.scrunkly{
+width:155px;
+height:190px;
+}
+.cs{
+width:400px;
+height:135px;
+}
+
+/*hover effect (top)*/
+.cardtop {
+  position: relative;
+  width: 180px; /* Adjust the width as needed */
+  height: 280px; /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardtop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardtop:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*hover effect (bottom)*/
+.cardbottom {
+  position: relative;
+  width: 180px; /* Adjust the width as needed */
+  height: 280px; /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardbottom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardbottom:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
