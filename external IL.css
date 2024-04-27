@@ -1,0 +1,584 @@
+html {
+scroll-behavior:smooth;
+}
+
+body {
+background-color:#0F2C4C;
+display:grid;
+} 
+
+/*banner*/
+img {
+margin:0px;
+width:1325px;
+height:150px;
+}
+
+/* navigation*/
+.navbar ul{
+list-style-type:none;
+background-color:#713F40;
+padding:0px;
+margin:5px;
+overflow:hidden;	
+text-align:center;
+float:center;
+}
+
+.navbar a{
+text-decoration:none;
+display:block;
+float:left;
+color:white;
+padding:0px;
+}
+
+.navbar a:hover{
+color:black;
+background-color: white;
+}
+
+.navbar h4{
+text-align:center;	
+padding:0px;
+width:265px;
+}
+
+/*layout*/
+.column {
+display: flex;
+grid-gap: 10px;
+padding:5px;
+grid-template-columns:550px;
+grid-template-rows:100px 4000px
+}
+
+
+
+/*data*/
+.main1{	
+background-color:none;
+color:white;
+text-decoration:none;
+display:block;
+}
+
+.main1 font{
+margin:55px;
+padding:20px;	
+}
+
+.main1 p{
+text-align:justify;
+margin:55px;
+padding:20px;	
+}
+
+.main1 h1{
+text-align:center;
+padding:0px;
+}
+
+/*procedure biotek*/
+table td{
+font-size:23;
+color:white;
+}
+
+/*color*/
+.navbar b{
+color:#FCD675;
+}
+
+li{
+color: white;
+font-size: 20;
+}
+
+font {
+color:white;
+font-size: 20	;
+}
+
+.font {
+font-size:20;
+}
+
+.fontwel {
+font-size:25;
+}
+
+.table {
+color:#1F3655;
+}
+
+/*credit*/
+.credit {
+background-color:#713F40;
+color:white;
+text-decoration:none;
+display:block;
+margin:5px;
+padding;0px;
+}
+
+/*spotify*/
+iframe{
+width:400px;
+margin:20px;
+padding:10px;
+height:400px;
+}
+
+/*background*/
+.welcome{
+background-image: url(back.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+height:100%;
+}
+
+/*background*/
+.backspotify{
+background-image: url(spotify3.jpg);
+background-repeat:no-repeat;
+background-position: center;
+background-size: 1350px 100%;
+background-attachment:fixed;
+height:100%;
+}
+
+
+/*background*/
+.backgroundweb{
+background-image: url(FIXX.png);
+background-repeat:no-repeat;
+background-size: 870px 768px ;
+background-attachment:fixed;
+height:100%;
+}
+
+/*gallery*/
+.imagetall img{	
+width:190px;
+height:240px;
+}
+.imagemed img{	
+width:190px;
+height:110px;
+}
+.imagetall2 img{	
+width:380px;
+height:500px;
+}
+.imagemed2 img{	
+width:380px;
+height:250px;
+}
+.imagemed3 img{	
+width:380px;
+height:280px;
+}
+.imagelogo img{
+width:380px;
+height:380px;
+}
+
+/*image abstrak*/
+.puddingimg img{	
+width:190px;
+height:240px;
+}
+
+.biotekimg img{	
+width:190px;
+height:190px;
+}
+
+/*profile*/
+.profile img{
+width: 200px;
+height: 200px;
+text-align:align;
+margin:55px;
+padding:20px;
+}
+
+/*colapsibles*/
+.collapsible {
+  background-color:#335E89;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.active, .collapsible:hover {
+  background-color:#713F40;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #A5B2C6;
+  color:#1F3655;	
+}
+
+.iframeexcel {
+width:600px;
+height:700px;
+}
+
+/*pdf*/
+.tabelagama{
+width:600px;
+height:700px;
+}	
+.tabelmat{
+width:565px;
+height:700px;
+}
+.youtube {
+width:600px;
+height:335px;
+}
+.diagram {
+width:630px;
+height:335px;
+}
+
+
+/*lampiran*/
+.lampiran{
+width:140px;
+height:200px;
+}
+.lampiran2{
+width:190px;
+height:120px;
+}
+.lampiran3{
+width:155px;
+height:200px;
+}
+.lampiran4{
+width:140px;
+height:250px;
+}
+.lampiran5{
+width:195px;
+height:250px;
+}
+.lampiran6{
+width:450px;
+height:235px;
+}
+.lampiran7{
+width:195px;
+height:195px;
+}
+.logo {
+width:195px;
+height:195px;
+}
+.logopromosi{
+width:655px;
+height:655px;
+}
+.scrunkly{
+width:155px;
+height:165px;
+}
+.cs{
+width:400px;
+height:135px;
+}
+.poster{
+width:195px;
+height:250px;
+}
+
+/*hover effect (top)*/
+.cardtop {
+  position: relative;
+  width: 200px; /* Adjust the width as needed */
+  height: 280px; /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardtop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardtop:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*hover effect (bottom)*/
+.cardbottom {
+  position: relative;
+  width: 200px; /* Adjust the width as needed */
+  height: 280px; /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardbottom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardbottom:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* BUTTON prrsentasi*/
+.button {  display: inline-block;  
+border-radius: 4px;  
+background-color: #713F40;  
+border: none;    
+text-align: center;  
+font-size: 28px;  
+padding: 20px;  
+width: 225px;  
+transition: all 0.5s;  
+cursor: pointer;  
+margin: 5px;
+}
+.button span {  
+cursor: pointer;  
+display: inline-block;  
+position: relative;  
+transition: 0.5s;
+color: #FCD675;
+}
+.button span:after {
+content: '\00bb';  /* CSS Entities. To use HTML Entities, use →*/
+position: absolute;  
+opacity: 0;  
+top: 0;  
+right: -20px;  
+transition: 0.5s;
+}
+.button:hover span {  
+padding-right: 25px;
+}
+.button:hover span:after {  
+opacity: 1; 
+right: 0;
+}
+
+/* BUTTON instagram*/
+.buttonig {  
+display: inline-block;  
+border-radius: 4px;  
+background-color: #223B5A;  
+border: none;    
+text-align: left;  
+font-size: 28px;  
+width: 60px;  
+transition: all 0.5s;  
+cursor: pointer;  
+}
+.buttonig span {  
+cursor: pointer;  
+display: inline-block;  
+position: relative;  
+transition: 0.5s;
+color: #FCD675;
+}
+.buttonig span:after {
+content: '\00bb';  /* CSS Entities. To use HTML Entities, use →*/
+position: absolute;  
+opacity: 0;  
+top: 6px;  
+right: -290px;  
+transition: 0.5s;
+}
+.buttonig:hover span {  
+padding-right: 300px;
+}
+.buttonig:hover span:after {  
+opacity: 1; 
+right: 0;
+}
+.instagram {
+height:50px;
+width:50px;
+}
+
+
+/*CREW*/
+.Container .card .imgbx body{
+display:grid;
+justify-content: center;
+align-items:center;
+background:none;
+min-height:200px;
+}
+.container{
+position:relative; 
+width:100px;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+padding:0px;
+}
+.container .card{
+flex-direction:column;
+position:relative;
+width:200px;
+height:200px;
+background: white;
+margin: 10px;
+padding: 10px;
+
+display:flex;
+box-shadow:0 5px 20px rgba(0,0,0,0.5);
+transition:0.3s ease-in-out;
+border-radius:50%;
+}
+.container .card:hover {
+height:275px;
+border-radius:10px;
+background: white;
+}
+.container .card .imgbx{
+position:relative;
+width:200px;/*size*/
+height:200px;/*size*/
+top:-0px;
+
+z-index:1;
+border-radius:50%;
+
+}
+.container .card .imgbx img{
+width:100%;
+height:100%;
+border-radius:50%; /**/
+}
+.container .card .title {
+position:relative;
+top:0px;
+padding:10px 15px;
+text-align:center;
+color:black;
+
+visibility:hidden;
+opacity:0;
+transition: 0.3s ease-in-out;
+}
+.container .card:hover .title {
+visibility:visible;
+opacity: 1;
+margin-top :0px;
+}
+.size {
+width:200px;
+height:200px;
+}
+.columncrew {
+display: flex;
+grid-gap: 150px;
+padding:5px;
+grid-template-columns:550px 1fr;
+grid-template-rows:100px 4000px;
+align-items:center;
+}
+
+/*Scroll top button*/
+.gotopbtn{
+position:fixed;
+width:50px;
+height:50px;
+background:#713F40;
+bottom:20px;
+left:30px;
+
+display:block;
+    z-index: 99;
+
+text-decoration:none;
+text-align:center;
+line-height:50px;
+color:white;
+font-size:22px;
+border-radius:50%;
+}
+.logobtn{
+width:50px;
+height:50px;
+}
+.spotify{
+position:fixed;
+width:375px;
+height:80px;
+background:none;
+bottom:0px;
+right:23px;
+
+display:block;
+    z-index: 99;
+
+text-decoration:none;
+text-align:center;
+line-height:20px;
+color:white;
+font-size:22px;
+border-radius:50%;
+}
